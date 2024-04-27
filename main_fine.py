@@ -28,10 +28,10 @@ if __name__ == '__main__':
         return datamatrix
 
 
-    path = r"E:\python\data\data_y_sss.xlsx"
+    path = r"E:\python\data\data_y.xlsx"
     datamatrix = matrix(path)
     y_dmrs=datamatrix
-    path = r"E:\python\data\data_signal_sss.xlsx"
+    path = r"E:\python\data\data_x.xlsx"
     datamatrix = matrix(path)
     x_dmrs = datamatrix
     print(y_dmrs.shape)
